@@ -10,6 +10,11 @@ Run the following command:
 npx create-turbo@latest
 ```
 
+or using pnpm 
+```sh
+pnpm dlx create-turbo@latest
+```
+
 ## What's inside?
 
 This Turborepo includes the following packages/apps:
