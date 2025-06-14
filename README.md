@@ -2,6 +2,17 @@
 
 This Turborepo starter is maintained by the Turborepo core team.
 
+## How to install and run
+```sh
+pnpm install
+```
+Then, to run all projects in the development:
+
+```sh
+turbo dev
+```
+
+
 ## Using this example
 
 Run the following command:
