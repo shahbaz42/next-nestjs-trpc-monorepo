@@ -1,12 +1,14 @@
 "use client";
 
-import { trpc } from "../trpc/client"
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const router = useRouter();
 
-  const { data } = trpc.todo.getAllTodos.useQuery();
+  useEffect(() => {
+    router.push("/todos");
+  }, [router]);
 
-  console.log(data);
-
-  return <></>
+  return null;
 }
